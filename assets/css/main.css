@@ -772,49 +772,6 @@ input, select, textarea {
 		}
 
 
-/* 기존 스타일들 */
-
-/* #contact 관련 스타일 */
-#contact {
-  padding: 4em 0; /* 섹션의 길이 조정 */
-}
-
-#contact .inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#contact .inner ul {
-  list-style: none;
-  padding: 0;
-}
-
-#contact .inner ul li {
-  margin: 10px 0;
-}
-
-#contact .inner ul li a {
-  font-size: 1.5em;
-  color: #0088cc;
-  text-decoration: none;
-}
-
-#contact .inner ul li a:hover {
-  color: #005f99;
-}
-
-#contact .icons {
-  text-align: center;
-}
-
-/* 다른 스타일들 */
-
-
-
-
-
-
 
 /* Actions */
 
@@ -1704,3 +1661,38 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/* 추가 */
+
+#contact {
+  padding: 4em 0;
+}
+
+#contact .inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact .inner ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contact .inner ul li {
+  margin: 10px 0;
+}
+
+#contact .inner ul li a {
+  font-size: 1.5em;
+  color: #0088cc;
+  text-decoration: none;
+}
+
+#contact .inner ul li a:hover {
+  color: #005f99;
+}
+
+#contact .icons {
+  text-align: center;
+}
