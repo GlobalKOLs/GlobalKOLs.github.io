@@ -771,6 +771,51 @@ input, select, textarea {
 			margin-left: 2rem;
 		}
 
+
+/* 기존 스타일들 */
+
+/* #contact 관련 스타일 */
+#contact {
+  padding: 4em 0; /* 섹션의 길이 조정 */
+}
+
+#contact .inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact .inner ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contact .inner ul li {
+  margin: 10px 0;
+}
+
+#contact .inner ul li a {
+  font-size: 1.5em;
+  color: #0088cc;
+  text-decoration: none;
+}
+
+#contact .inner ul li a:hover {
+  color: #005f99;
+}
+
+#contact .icons {
+  text-align: center;
+}
+
+/* 다른 스타일들 */
+
+
+
+
+
+
+
 /* Actions */
 
 	ul.actions {
@@ -1140,9 +1185,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
