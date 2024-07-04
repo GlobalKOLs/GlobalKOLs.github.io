@@ -11115,5 +11115,15 @@ footer.footer .social-link:hover {
     text-align: left !important;
 }
 
+/* 버튼 동일 크기로 바꾸려고 추가 */
+.custom-btn {
+    display: inline-block;
+    width: 200px; /* or any desired width */
+    padding: 10px 20px; /* adjust padding as needed */
+    text-align: center;
+    margin: 10px; /* adjust margin as needed */
+    font-size: 16px; /* adjust font-size as needed */
+}
+
 
 
