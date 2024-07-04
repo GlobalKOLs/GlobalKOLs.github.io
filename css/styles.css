@@ -11111,8 +11111,9 @@ footer.footer .social-link:hover {
 
 /* 추가함 */
 /* #about 섹션의 텍스트를 왼쪽 정렬로 변경 */
-#about .container {
-    text-align: left;
+#about .text-center {
+    text-align: left !important;
 }
+
 
 
