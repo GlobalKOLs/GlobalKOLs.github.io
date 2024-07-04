@@ -11118,12 +11118,16 @@ footer.footer .social-link:hover {
 /* 버튼 동일 크기로 바꾸려고 추가 */
 .custom-btn {
     display: inline-block;
-    width: 150px; /* 버튼의 너비를 동일하게 설정 */
-    padding: 10px 0; /* 위아래 패딩 설정 */
+    width: 150px; /* Setting the same width for both buttons */
+    padding: 10px 0; /* Setting the same padding for both buttons */
     text-align: center;
-    margin: 10px; /* 버튼 간의 간격 조정 */
-    font-size: 16px; /* 글자 크기 조정 */
+    margin: 10px; /* Adjusting the margin for both buttons */
+    font-size: 16px; /* Setting the font size uniformly */
+    line-height: 1.5; /* Ensuring consistent line height */
+    border: none; /* Removing default borders */
+    box-sizing: border-box; /* Ensuring padding and border are included in the element's total width and height */
 }
+
 
 
 
