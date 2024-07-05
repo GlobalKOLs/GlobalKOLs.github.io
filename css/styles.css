@@ -11128,3 +11128,13 @@ footer.footer .social-link:hover {
     box-sizing: border-box; /* 패딩과 테두리가 요소의 총 너비와 높이에 포함되도록 보장 */
 }
 
+/* 모바일 글자 크기 반응형으로 */
+/* Responsive styles */
+@media (max-width: 768px) {
+    .masthead h1 {
+        font-size: 2.5rem;
+    }
+    .masthead h3 {
+        font-size: 1.2rem;
+    }
+}
